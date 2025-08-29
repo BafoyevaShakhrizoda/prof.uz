@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class OccupationsConfig(AppConfig):
+class CommonConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app.occupations'
+    name = 'app.users'
